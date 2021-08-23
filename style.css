@@ -58,7 +58,7 @@ html {
 
 /* desktop */
 
-@media only screen and (max-width: 1440px) {
+
   html {
     background: url(./images/bg-intro-desktop.png) no-repeat;
     background-color: var(--red);
@@ -269,11 +269,11 @@ html {
   .error {
     text-align: right;
   }
-}
+
 
 /* mobile */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 800px) {
   html {
     background: url(./images/bg-intro-mobile.png) no-repeat;
     background-color: var(--red);
